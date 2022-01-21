@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to My Page
 
-You can use the [editor on GitHub](https://github.com/Dustin-DAC/Dustin-Dac.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### A little about me :
+- Dad of two
+- Working in IT for +15 years
+- Believes in automating everything
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Portfolio 
 
-### Markdown
+### Ranked Languages
+1. Powershell
+2. Bash/CMD
+3. Python
+4. GDScript
+5. C#
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Current Endevors
+- API Integrations
+- Tooling (Mostly Powershell)
+- Systems Automation (Setup/Deployment)
+- Azure/Cloud Management (Powershell/Automation)
+- Security and Documentation Automation
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dustin-DAC/Dustin-Dac.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I'm always looking for new ways to expand my skillset and work with new tools. I am currently working on updating my reposoties and converting existing projects for general use. Please see my lists of repo's below and feel free to open any issues or requests. 
