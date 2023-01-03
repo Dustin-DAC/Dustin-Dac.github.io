@@ -1,26 +1,31 @@
-## Welcome to My Page
+# Welcome to My Page
 
-### A little about me :
-- Dad of two
+## A little about me :
+- Dad of four
 - Working in IT for +15 years
 - Believes in automating everything
 
-## Portfolio 
+## Skills
+- Proficient in Powershell, Bash/CMD, Python, GDScript, and C#
+- Strong experience in API integrations and tool development
+- Skilled in systems automation and deployment
+- Experienced in Azure/cloud management and automation
+- Knowledgeable in security and documentation automation
 
-### Ranked Languages
-1. Powershell
-2. Bash/CMD
-3. Python
-4. GDScript
-5. C#
+## Projects
+### Tech Toolbox PSModule
+A Powershell module designed to streamline and simplify common technical tasks. Features include:
+- Quick access to frequently used tools and utilities
+- One-line installation and update of popular software packages
+- Easily gather system information for troubleshooting and documentation purposes
 
-### Current Endevors
-- API Integrations
-- Tooling (Mostly Powershell)
-- Systems Automation (Setup/Deployment)
-- Azure/Cloud Management (Powershell/Automation)
-- Security and Documentation Automation
+[View on GitHub](https://github.com/Dustin-DAC/TechToolbox-PSModule)
 
-I'm always looking for new ways to expand my skillset and work with new tools. I am currently working on updating my reposoties and converting existing projects for general use. Please see my lists of repo's below and feel free to open any issues or requests. 
+## Experience
+- 15+ years working in IT, with a focus on automation and efficient solutions
+- Led the development of a successful desktop application used by thousands of users
+- Created a web service that processed millions of requests per day with high availability
+- Implemented a machine learning model resulting in a 20% improvement in performance
 
-[Tech Toolbox PSModule](https://github.com/Dustin-DAC/TechToolbox-PSModule)
+## Interests
+In my free time, I enjoy contributing to open source projects and staying up-to-date with the latest industry trends. I am always excited to learn and work on new challenges.
