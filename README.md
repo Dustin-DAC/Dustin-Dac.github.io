@@ -1,4 +1,4 @@
-# Welcome to My Page
+# IT Automation Expert with 15+ Years of Experience
 
 ## A little about me :
 - Dad of four
@@ -6,11 +6,11 @@
 - Believes in automating everything
 
 ## Skills
-- Proficient in Powershell, Bash/CMD, Python, GDScript, and C#
-- Strong experience in API integrations and tool development
+- Proficient in Powershell, Bash/CMD, Python, JavaScript, and C#
+- Experienced in Azure/Workspace Cloud Management
 - Skilled in systems automation and deployment
-- Experienced in Azure/cloud management and automation
 - Knowledgeable in security and documentation automation
+- Strong experience in API integrations and tool development
 
 ## Projects
 ### Tech Toolbox PSModule
@@ -21,11 +21,16 @@ A Powershell module designed to streamline and simplify common technical tasks. 
 
 [View on GitHub](https://github.com/Dustin-DAC/TechToolbox-PSModule)
 
+### Internal Communication App
+Developed an Appscript Add-on to facilitate communication and ensure security of relevant data
+
 ## Experience
 - 15+ years working in IT, with a focus on automation and efficient solutions
-- Led the development of a successful desktop application used by thousands of users
-- Created a web service that processed millions of requests per day with high availability
-- Implemented a machine learning model resulting in a 20% improvement in performance
+- Development of internal tools to improve issue troubleshooting and resolution
+- Hardening of internal platforms and environments
+- Managed a fleet of + 45,000 devices across multiple locations and deployed new technologies
+
+![](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/69567766)
 
 ## Interests
-In my free time, I enjoy contributing to open source projects and staying up-to-date with the latest industry trends. I am always excited to learn and work on new challenges.
+In my free time, I enjoy staying up-to-date with the latest industry trends. I am always excited to learn and work on new challenges.
