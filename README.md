@@ -17,12 +17,14 @@
 A Powershell module designed to streamline and simplify common technical tasks. Features include:
 - Quick access to frequently used tools and utilities
 - One-line installation and update of popular software packages
-- Easily gather system information for troubleshooting and documentation purposes
+- Easily gather system information for troubleshooting, escalation, and documentation.
 
 [View on GitHub](https://github.com/Dustin-DAC/TechToolbox-PSModule)
 
 ### Internal Communication App
-Developed an Appscript Add-on to facilitate communication and ensure security of relevant data
+An Appscript Add-on to facilitate communication and ensure security of relevant data.
+
+[View on GitHub](https://github.com/Dustin-DAC/AppScript-MailMerge)
 
 ## Experience
 - 15+ years working in IT, with a focus on automation and efficient solutions
@@ -30,7 +32,17 @@ Developed an Appscript Add-on to facilitate communication and ensure security of
 - Hardening of internal platforms and environments
 - Managed a fleet of + 45,000 devices across multiple locations and deployed new technologies
 
-![](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/69567766)
+### Certifications
+
+[ConnectWise](connect_Service_Tech.png)
+[ConnectWise Engineer Certification](EngineerTechnician_Certificate.png)
+[Sophos Certified Engineer](Sophos Certified Engineer.pdf)
+[Sophos Delta Certification](Sophos_1.pdf)
+[Datto T2 Specialist](Datto_Technical Specialist II.pdf)
+[Datto Deployment Specialist](LMS_Certificate_DCDS_Continuity.pdf)
+[Chrome OS Administrator](ChromeOS.pdf)
+
 
 ## Interests
+
 In my free time, I enjoy staying up-to-date with the latest industry trends. I am always excited to learn and work on new challenges.
