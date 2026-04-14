@@ -7,7 +7,7 @@
   <meta name="description" content="IT professional with 15+ years in enterprise infrastructure, automation, and cybersecurity across MSP, education, and government sectors.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,6 +21,7 @@
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
+        <li><a href="#delivers">Value</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -33,21 +34,25 @@
   <!-- ── HERO ── -->
   <section id="hero">
     <div class="hero-inner">
-      <p class="hero-label">Network Administrator &nbsp;·&nbsp; Systems Analyst &nbsp;·&nbsp; Infrastructure Engineer</p>
+      <p class="hero-label">Infrastructure Engineer &nbsp;·&nbsp; Incident Commander &nbsp;·&nbsp; Automation Architect</p>
       <h1 class="hero-name">Dustin Allard</h1>
       <p class="hero-tagline">
-        Building resilient infrastructure and automation systems<br>
-        across MSP, education, and government environments.
+        From greenfield deployments to nation-state incident response —<br>
+        the engineer who builds, scales, and defends critical infrastructure.
       </p>
+      <div class="hero-credential">
+        <span class="cred-dot" aria-hidden="true"></span>
+        Federal incident reporting: CISA &nbsp;&middot;&nbsp; FBI Field Office
+      </div>
       <div class="hero-badges">
         <span class="badge">15+ Years Experience</span>
         <span class="badge">45,000+ Endpoints Managed</span>
-        <span class="badge">Federal Incident Reporting (CISA / FBI)</span>
+        <span class="badge">MSP &middot; Education &middot; Government</span>
       </div>
       <div class="hero-actions">
-        <a href="https://github.com/Dustin-DAC" class="btn btn-primary" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/dustinallard" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:Dustin.carsillo@gmail.com" class="btn btn-secondary">Email Me</a>
+        <a href="https://linkedin.com/in/dustinallard" class="btn btn-primary" target="_blank" rel="noopener">View LinkedIn</a>
+        <a href="https://github.com/Dustin-DAC" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:Dustin.carsillo@gmail.com" class="btn btn-secondary">Start the Conversation</a>
       </div>
     </div>
     <div class="hero-scroll" aria-hidden="true">↓</div>
@@ -56,9 +61,9 @@
   <!-- ── ABOUT ── -->
   <section id="about" class="section-alt">
     <div class="container">
-      <h2 class="section-title">About</h2>
+      <h2 class="section-title reveal">About</h2>
       <div class="about-grid">
-        <div class="about-text">
+        <div class="about-text reveal">
           <p>
             IT professional with 15+ years of progressive experience in enterprise network administration,
             systems analysis, cybersecurity, and infrastructure modernization across MSP, education, and
@@ -71,26 +76,26 @@
             the FBI field office.
           </p>
           <p>
-            Open-source contributor with published PowerShell tooling actively used by the broader engineering
-            community. I build things that work, document them thoroughly, and leave environments measurably
-            better than I found them.
+            Open-source contributor with published PowerShell tooling actively forked and used by IT professionals
+            across the community. I build things that work, document them thoroughly, and leave environments
+            measurably better than I found them.
           </p>
         </div>
-        <div class="about-stats">
+        <div class="about-stats reveal">
           <div class="stat">
-            <span class="stat-num">15+</span>
+            <span class="stat-num" data-target="15" data-suffix="+">15+</span>
             <span class="stat-lbl">Years in IT</span>
           </div>
           <div class="stat">
-            <span class="stat-num">45k+</span>
+            <span class="stat-num" data-target="45" data-suffix="k+">45k+</span>
             <span class="stat-lbl">Endpoints Managed</span>
           </div>
           <div class="stat">
-            <span class="stat-num">60%</span>
+            <span class="stat-num" data-target="60" data-suffix="%">60%</span>
             <span class="stat-lbl">RTO Reduction</span>
           </div>
           <div class="stat">
-            <span class="stat-num">3</span>
+            <span class="stat-num" data-target="3" data-suffix="">3</span>
             <span class="stat-lbl">Sectors: MSP · EDU · Gov</span>
           </div>
         </div>
@@ -98,13 +103,41 @@
     </div>
   </section>
 
-  <!-- ── SKILLS ── -->
-  <section id="skills">
+  <!-- ── WHAT I DELIVER ── -->
+  <section id="delivers">
     <div class="container">
-      <h2 class="section-title">Technical Skills</h2>
+      <h2 class="section-title reveal">What I Deliver</h2>
+      <div class="delivers-grid">
+
+        <div class="deliver-card reveal">
+          <div class="deliver-num">01</div>
+          <h3>Infrastructure That Holds Under Pressure</h3>
+          <p>DR architecture, greenfield deployments, and modernization roadmaps built to survive real-world incidents — including active nation-state attacks. Tested in government, not just on paper.</p>
+        </div>
+
+        <div class="deliver-card reveal" style="transition-delay: 0.12s">
+          <div class="deliver-num">02</div>
+          <h3>Security at Federal Standards</h3>
+          <p>Hands-on APT incident response with forensic analysis and direct reporting to CISA and the FBI Field Office. Threat detection, network hardening, and compliance enforced across 45,000+ endpoints.</p>
+        </div>
+
+        <div class="deliver-card reveal" style="transition-delay: 0.24s">
+          <div class="deliver-num">03</div>
+          <h3>Automation That Outlasts the Engineer</h3>
+          <p>Self-healing frameworks that reduce after-hours escalations, open-source tools used across the engineering community, and data pipelines that eliminate manual work — built to keep running independently.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
       <div class="skills-grid">
 
-        <div class="skill-card">
+        <div class="skill-card reveal">
           <h3>Systems &amp; Infrastructure</h3>
           <div class="tags">
             <span class="tag">Active Directory</span>
@@ -122,7 +155,7 @@
           </div>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card reveal" style="transition-delay: 0.08s">
           <h3>Cybersecurity</h3>
           <div class="tags">
             <span class="tag">Threat Detection</span>
@@ -136,7 +169,7 @@
           </div>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card reveal" style="transition-delay: 0.16s">
           <h3>Cloud &amp; Platforms</h3>
           <div class="tags">
             <span class="tag">Azure Active Directory</span>
@@ -150,7 +183,7 @@
           </div>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card reveal" style="transition-delay: 0.08s">
           <h3>Automation &amp; Development</h3>
           <div class="tags">
             <span class="tag accent">PowerShell</span>
@@ -165,7 +198,7 @@
           </div>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card reveal" style="transition-delay: 0.16s">
           <h3>Management &amp; Operations</h3>
           <div class="tags">
             <span class="tag">IT Strategy</span>
@@ -184,12 +217,12 @@
   </section>
 
   <!-- ── EXPERIENCE ── -->
-  <section id="experience" class="section-alt">
+  <section id="experience">
     <div class="container">
-      <h2 class="section-title">Experience</h2>
+      <h2 class="section-title reveal">Experience</h2>
       <div class="timeline">
 
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Network Administrator</h3>
@@ -208,7 +241,7 @@
           </ul>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Enterprise Platform Specialist</h3>
@@ -224,7 +257,7 @@
           </ul>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Network &amp; System Administrator</h3>
@@ -241,7 +274,7 @@
           </ul>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Network Administrator</h3>
@@ -257,7 +290,7 @@
           </ul>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Lead Computer Technician</h3>
@@ -276,24 +309,29 @@
   </section>
 
   <!-- ── PROJECTS ── -->
-  <section id="projects">
+  <section id="projects" class="section-alt">
     <div class="container">
-      <h2 class="section-title">Notable Projects</h2>
+      <h2 class="section-title reveal">Notable Projects</h2>
       <div class="projects-grid">
 
-        <div class="project-card">
+        <!-- Featured: most differentiating project comes first -->
+        <div class="project-card featured reveal">
+          <div class="featured-label">Critical Incident &mdash; Federal</div>
           <div class="project-header">
-            <h3>TechToolbox PowerShell Module</h3>
-            <a href="https://github.com/Dustin-DAC/TechToolbox-PSModule" class="project-link" target="_blank" rel="noopener">↗ GitHub</a>
+            <h3>Nation-State Incident Response</h3>
+            <span class="project-badge">CISA &middot; FBI Field Office</span>
           </div>
-          <p>Published open-source engineering toolkit for common IT tasks — actively forked and used by IT professionals across the community. Features one-line software installation, system diagnostics, and streamlined troubleshooting utilities.</p>
+          <p>Served as sole first responder and incident commander during APT attacks against municipal government infrastructure. Conducted full forensic analysis, contained the breach, and submitted detailed incident reports directly to CISA and the FBI field office. Operational experience that most engineers will never encounter.</p>
           <div class="tags">
-            <span class="tag accent">PowerShell</span>
-            <span class="tag">Open Source</span>
+            <span class="tag">Cybersecurity</span>
+            <span class="tag">Incident Response</span>
+            <span class="tag">APT Analysis</span>
+            <span class="tag">CISA / FBI</span>
+            <span class="tag">Forensic Analysis</span>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card reveal">
           <div class="project-header">
             <h3>Municipal Disaster Recovery Architecture</h3>
           </div>
@@ -305,19 +343,19 @@
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card reveal" style="transition-delay: 0.1s">
           <div class="project-header">
-            <h3>Nation-State Incident Response</h3>
+            <h3>TechToolbox PowerShell Module</h3>
+            <a href="https://github.com/Dustin-DAC/TechToolbox-PSModule" class="project-link" target="_blank" rel="noopener">↗ GitHub</a>
           </div>
-          <p>Served as sole first responder and incident commander during APT attacks against municipal government infrastructure. Conducted full forensic analysis and submitted detailed reports directly to CISA and the FBI field office.</p>
+          <p>Published open-source engineering toolkit for common IT tasks — actively forked and used by IT professionals across the community. Features one-line software installation, system diagnostics, and streamlined troubleshooting utilities.</p>
           <div class="tags">
-            <span class="tag">Cybersecurity</span>
-            <span class="tag">Incident Response</span>
-            <span class="tag">CISA / FBI</span>
+            <span class="tag accent">PowerShell</span>
+            <span class="tag">Open Source</span>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card reveal">
           <div class="project-header">
             <h3>Executive Reporting Dashboard</h3>
           </div>
@@ -329,7 +367,7 @@
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card reveal" style="transition-delay: 0.1s">
           <div class="project-header">
             <h3>AppScript Mass Communication System</h3>
             <a href="https://github.com/Dustin-DAC/AppScript-MailMerge" class="project-link" target="_blank" rel="noopener">↗ GitHub</a>
@@ -342,7 +380,7 @@
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card reveal" style="transition-delay: 0.2s">
           <div class="project-header">
             <h3>Arduino Mass Deployment Platform</h3>
           </div>
@@ -359,36 +397,36 @@
   </section>
 
   <!-- ── CERTIFICATIONS ── -->
-  <section id="certifications" class="section-alt">
+  <section id="certifications">
     <div class="container">
-      <h2 class="section-title">Certifications</h2>
+      <h2 class="section-title reveal">Certifications</h2>
       <div class="certs-grid">
-        <a href="connect_Service_Tech.png" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="connect_Service_Tech.png" class="cert-card reveal" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">ConnectWise<br>Service Tech</span>
         </a>
-        <a href="EngineerTechnician_Certificate.png" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="EngineerTechnician_Certificate.png" class="cert-card reveal" style="transition-delay: 0.06s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">ConnectWise<br>Engineer Certification</span>
         </a>
-        <a href="Sophos%20Certified%20Engineer.pdf" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="Sophos%20Certified%20Engineer.pdf" class="cert-card reveal" style="transition-delay: 0.12s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">Sophos<br>Certified Engineer</span>
         </a>
-        <a href="Sophos_1.pdf" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="Sophos_1.pdf" class="cert-card reveal" style="transition-delay: 0.18s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">Sophos<br>Delta Certification</span>
         </a>
-        <a href="Datto_Technical%20Specialist%20II.pdf" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="Datto_Technical%20Specialist%20II.pdf" class="cert-card reveal" style="transition-delay: 0.24s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">Datto Technical<br>Specialist II</span>
         </a>
-        <a href="LMS_Certificate_DCDS_Continuity.pdf" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="LMS_Certificate_DCDS_Continuity.pdf" class="cert-card reveal" style="transition-delay: 0.30s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">Datto Certified<br>Deployment Specialist</span>
         </a>
-        <a href="ChromeOS.pdf" class="cert-card" target="_blank" rel="noopener">
-          <span class="cert-icon">✓</span>
+        <a href="ChromeOS.pdf" class="cert-card reveal" style="transition-delay: 0.36s" target="_blank" rel="noopener">
+          <span class="cert-icon">&#10003;</span>
           <span class="cert-name">Chrome OS<br>Administrator</span>
         </a>
       </div>
@@ -409,15 +447,55 @@
   </footer>
 
   <script>
-    // Mobile nav toggle
+    // ── Mobile nav toggle ──
     const toggle = document.getElementById('navToggle');
     const links  = document.getElementById('navLinks');
     toggle.addEventListener('click', () => links.classList.toggle('open'));
     links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
 
-    // Shrink nav on scroll
+    // ── Shrink nav on scroll ──
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40), { passive: true });
+
+    // ── Scroll reveal ──
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    // ── Count-up animation for stats ──
+    function animateCounter(el, target, suffix, duration) {
+      const start = performance.now();
+      const update = (time) => {
+        const elapsed = time - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.round(eased * target);
+        el.textContent = current + suffix;
+        if (progress < 1) requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.dataset.target, 10);
+          const suffix = el.dataset.suffix || '';
+          animateCounter(el, target, suffix, 1400);
+          statsObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.6 });
+
+    document.querySelectorAll('[data-target]').forEach(el => statsObserver.observe(el));
   </script>
 
 </body>
